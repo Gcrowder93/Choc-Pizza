@@ -72,5 +72,14 @@ h2 {
 }
 #ing {
     background-image: url(../assets/list-bg.png);
+    -moz-column-count: 2;
+    -moz-column-gap: 2em;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 2em;
+    column-count: 2;
+    column-gap: 2;
+    width: 80%;
+    margin: auto;
+    background-position: center;
+    background-size: cover;
 }
-    
