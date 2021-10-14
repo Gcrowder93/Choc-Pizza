@@ -7,7 +7,6 @@ body {
     max-width: 100%;
     margin: 0px auto;
 }
-
 /*font-family: 'Architects Daughter', cursive;
     font-family: 'Ephesis', cursive;
     font-family: 'Noto Sans Mono', monospace;
@@ -82,19 +81,42 @@ h2 {
     margin: auto;
     background-position: center;
     background-size: cover;
+    padding: 2%;
+    font-size: larger;
+    font-family: 'Architects Daughter', cursive;
+}
+
+#face {
+    line-height: 0;
+    margin-left: 150px;
+    
+}
+
+#about {
+    margin: auto;
+    max-width: 50%;
 }
 
 footer {
     display: flex;
-    justify-content: left;
-    align-items: center;
-    padding: 30px 100px;
 }
 
-
+#nessa {
+    font-family: 'Roboto';
+}
 
 #bottomtext {
     text-align: center;
     justify-content: center;
     color: lightgray;
+}
+
+#foot {
+    display: grid;
+    justify-content: center;
+}
+
+#fakebutton {
+    background-color: rgb(192, 87, 17);
+    color: white;
 }
