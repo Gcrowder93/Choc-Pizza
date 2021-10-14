@@ -1,9 +1,14 @@
-body {
+*{
+    box-sizing: border-box;
+    margin: 0px 100px;
+    padding: 0px 100px;
+}
+/*body {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 75px;
-}
+}*/
 
 /*font-family: 'Architects Daughter', cursive;
     font-family: 'Ephesis', cursive;
@@ -12,7 +17,9 @@ body {
 */
 header {
     display: flex;
-
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px 100px;
 }
 
 .delicious {
@@ -20,12 +27,8 @@ header {
     font-size: 3em;
     font-weight: bold;
     line-height: 11px;
-    margin-left: 5px;
-    text-indent: -1em;
-    text-align: right;
-    grid-row-start: 0;
-    grid-column-start: -10;
-    
+    margin-right: auto;
+    text-align: center;
 }
 
 #blog {
@@ -35,7 +38,26 @@ header {
     color: gray;
 }
 
-.logos {
-  
+.main-section{
+    margin-top: 20px;
+   
 }
-
+#pizza{
+    z-index: -1;
+}
+h1 {
+    font-family: Roboto;
+    font-weight: bolder;
+}
+h2 {
+    font-family: Noto Sans Mono;
+    font-size: 8px;
+    color: gray;
+}
+.main-logo {
+    margin: 30px 100px;
+}
+#listBackground{
+    margin: 30px 100px;
+    }
+    
