@@ -83,3 +83,18 @@ h2 {
     background-position: center;
     background-size: cover;
 }
+
+footer {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 30px 100px;
+}
+
+
+
+#bottomtext {
+    text-align: center;
+    justify-content: center;
+    color: lightgray;
+}
