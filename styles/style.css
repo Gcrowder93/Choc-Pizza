@@ -1,10 +1,41 @@
-main {
+body {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    font-family: 'Architects Daughter', cursive;
+    margin-top: 75px;
+}
+
+/*font-family: 'Architects Daughter', cursive;
     font-family: 'Ephesis', cursive;
     font-family: 'Noto Sans Mono', monospace;
     font-family: 'Roboto', sans-serif;
+*/
+header {
+    display: flex;
+
 }
+
+.delicious {
+    font-family: 'Ephesis', cursive;
+    font-size: 3em;
+    font-weight: bold;
+    line-height: 11px;
+    margin-left: 5px;
+    text-indent: -1em;
+    text-align: right;
+    grid-row-start: 0;
+    grid-column-start: -10;
+    
+}
+
+#blog {
+    font-family: 'Roboto';
+    font-weight: lighter;
+    font-size: 10px;
+    color: gray;
+}
+
+.logos {
+  
+}
+
